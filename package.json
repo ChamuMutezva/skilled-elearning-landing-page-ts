@@ -14,10 +14,10 @@
     "@types/node": "^16.11.39",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "netlify-cli": "^10.5.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
-    "responsive-responsive-img-material-ui": "^2.8.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.7.3",
     "web-vitals": "^2.1.4"

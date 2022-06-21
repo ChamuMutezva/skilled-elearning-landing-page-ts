@@ -16,16 +16,13 @@ export const FontName = {
 
 export const ParaStyles = {
     fontWeight: 500,
-    fontFamily: FontName.fontFamily, 
+    fontFamily: FontName.fontFamily,
     color: Colors.lightGrey,
     paddingBlock: '1rem',
     lineHeight: 1.625,
     fontSize: {
         xs: "1rem",
         lg: "1.125rem"
-    },
-    paddingBlockEnd: {
-        lg: "2rem",
     }
 }
 
@@ -43,13 +40,13 @@ export const H1Styles = {
 
 export const H2Styles = {
     fontWeight: 800,
-    fontFamily: FontName.fontFamily, 
-    lineHeight: 1.33,      
-    color: Colors.white,   
+    fontFamily: FontName.fontFamily,
+    lineHeight: 1.33,
+    color: Colors.white,
     paddingInline: '1.5rem',
     paddingBlock: '1.5rem',
-    textAlign: 'left',      
-    borderRadius: '10px',   
+    textAlign: 'left',
+    borderRadius: '10px',
     fontSize: {
         xs: "1.5rem",
         lg: "2rem"
@@ -58,6 +55,7 @@ export const H2Styles = {
 
 export const PaperStyles = {
     borderRadius: '10px',
+    height: '100%'
 }
 
 export const PaperStyles2 = {
@@ -66,39 +64,43 @@ export const PaperStyles2 = {
     backgroundImage: Colors.gradPink,
     alignItems: 'center',
     height: {
-       xs: "100%",
-       lg: "80%",
-    }     
-    
- }
+        xs: "100%",
+        lg: "80%",
+    }
+
+}
 
 export const BtnPrimary = {
     backgroundColor: Colors.darkBlueGrey,
-    fontFamily: FontName.fontFamily,  
+    fontFamily: FontName.fontFamily,
     lineHeight: 1.75,
     fontWeight: 700,
     borderRadius: '28px',
     paddingBlock: '.7rem',
-    fontSize: '1rem',    
+    fontSize: '1rem',
 }
 
 export const BtnAltenative = {
     backgroundImage: Colors.gradPink,
-    fontFamily: FontName.fontFamily, 
+    fontFamily: FontName.fontFamily,
     lineHeight: 1.75,
     fontWeight: 700,
     borderRadius: '28px',
     paddingBlock: '.7rem',
     marginBlock: '1rem',
-    fontSize: '1rem',    
+    fontSize: '1rem',
 }
 
 export const BtnFooter = {
     backgroundImage: Colors.gradBluePink,
-    fontFamily: FontName.fontFamily,  
+    fontFamily: FontName.fontFamily,
     lineHeight: 1.75,
     fontWeight: 700,
     borderRadius: '28px',
     paddingBlock: '.7rem',
-    fontSize: '1rem',    
+    fontSize: '1rem',
+}
+
+export const GridStylesMain = {
+    maxWidth: { lg: '69.375rem' }
 }

@@ -7,9 +7,13 @@ function Footer(): JSX.Element {
     const footerStyles = {
         backgroundColor: Colors.black,
     }
+    const GridStyles = {
+        marginBlockStart: '3rem',
+        maxWidth: { lg: '69.375rem' }
+    }
     return (
         <footer style={footerStyles}>
-            <Container sx={{ marginBlockStart: '3rem'  }}>
+            <Container sx={GridStyles}>
                 <Box sx={{
                     display: 'flex', justifyContent: 'space-between',
                     alignItems: 'center', paddingBlock: '2rem'
