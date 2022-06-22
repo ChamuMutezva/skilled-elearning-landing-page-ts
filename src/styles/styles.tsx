@@ -30,7 +30,12 @@ export const H1Styles = {
     color: Colors.darkBlueGrey,
     fontFamily: "inherit",
     fontWeight: 800,
-    paddingBlockStart: '1.5rem',
+    paddingBlockStart:
+     {
+        xs: "1.5rem",
+        md: "4rem",
+        lg: "9.5rem"
+    },
     lineHeight: 1.25,
     fontSize: {
         xs: "2.5rem",

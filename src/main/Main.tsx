@@ -9,8 +9,9 @@ import { H2Styles, PaperStyles2, GridStylesMain } from '../styles/styles';
 
 function Main() {
    const GridStyles = {
-      marginBlockEnd: { lg: "8rem" }    
-   }
+      marginBlockEnd: { lg: "10.5rem" } ,
+      marginBlockStart: { lg: "18rem" }   
+   }  
 
    return (
       <main>

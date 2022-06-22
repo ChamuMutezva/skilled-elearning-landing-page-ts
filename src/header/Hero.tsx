@@ -27,11 +27,12 @@ function Hero(): JSX.Element {
           transform: scale(1.5)    
         }
         @media (min-width: 1200px) {      
-          top: -4rem;     
-          right: -15rem;           
+          top: 0.5rem;     
+          right: -16.5rem;  
+          transform: scale(2) 
         }
         `
-      )
+    )
     const picStyles = {
         display: "flex",
         justifyContent: "center",
