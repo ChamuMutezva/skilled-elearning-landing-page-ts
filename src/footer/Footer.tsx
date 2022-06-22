@@ -18,7 +18,7 @@ function Footer(): JSX.Element {
                     display: 'flex', justifyContent: 'space-between',
                     alignItems: 'center', paddingBlock: '2rem'
                 }}>
-                    <IconButton color='secondary' href='/' >
+                    <IconButton color='secondary' href='/' aria-label="skilled elearning" >
                         <Box component="img" src={Logo} alt="" />
                     </IconButton>
                     <Button variant='contained' href='/' sx={BtnFooter}>

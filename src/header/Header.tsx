@@ -28,7 +28,7 @@ function Header(): JSX.Element {
     <header>
       <Container sx={[GridStylesMain, GridStyles]}>
         <Box sx={BoxStyles}>
-          <IconButton color='secondary' href='/' >
+          <IconButton color='secondary' href='/' aria-label="skilled elearning" >
             <Box component="img" src={Skilled} alt="" />
           </IconButton>
           <Button variant='contained' href='/'
