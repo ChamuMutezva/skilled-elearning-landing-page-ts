@@ -4,8 +4,8 @@ import Logo from "../assets/logo-light.svg";
 import { BtnFooter } from "../styles/styles";
 
 function Footer(): JSX.Element {
-    const footerStyles = {
-        backgroundColor: Colors.black,
+    const footerStyles = {      
+        backgroundColor: Colors.darkBlueGrey,
     }
     const GridStyles = {
         marginBlockStart: '3rem',
